@@ -34,4 +34,10 @@ All the features are plotted against Churn to find interesting patterns int the 
 for eg. Customers Having Internet Service of type fibre optics are more likely to Churn than Customers with No Internet Service.
 
 ### Data Preprocessing
-
+First the data type of Total Charges feature column is changed from objecct to float type.
+Then the null and NaN values are detecting in the dataset. There were 10 NULL values in Total Charges Column so we use Simple Imputer Class of Sckit Learn Package
+to impute the NULL values with mean of the remaining data from the column Total Charges. This efectively takes cake of the NULL values.
+#### Encoding Categorical Data
+Binary features are encoded using Label Encoding that is Yes = 1 and No = 0 etc.
+Nominal Features that features having more that 2 categorical values are encoded using One Hot Encoding Method. 
+Finally we get 41 columns in feature matrix.
