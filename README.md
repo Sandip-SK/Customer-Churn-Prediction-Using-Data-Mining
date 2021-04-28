@@ -41,3 +41,15 @@ to impute the NULL values with mean of the remaining data from the column Total 
 Binary features are encoded using Label Encoding that is Yes = 1 and No = 0 etc.
 Nominal Features that features having more that 2 categorical values are encoded using One Hot Encoding Method. 
 Finally we get 41 columns in feature matrix.
+#### Train Test Split
+The dataset is splitted into 4 numpy arrays x_train, y_train, x_test, y_test where Training arrays have 80% of the total data present in the dataset and rest 20% is used for testing.
+
+### Training the Model
+The Model is then trained on differnt Machine Learning Models to predict the class of the Churn depending upon the input. 
+We save the predicted data in a numpy array y_pred.
+
+### Testing the Model
+The y_pred is compared with the y_test array and an accuracy is estimated based on this comparision.
+
+### Visualising Results
+Yet to be Completed!
