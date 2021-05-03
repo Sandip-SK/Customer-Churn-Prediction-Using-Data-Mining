@@ -51,5 +51,11 @@ We save the predicted data in a numpy array y_pred.
 ### Testing the Model
 The y_pred is compared with the y_test array and an accuracy is estimated based on this comparision.
 
+### K-Fold Cross Validation
+Cross validation od the training accuracies is performed and their mean is calculated as well as Standard Deviation between accuracies is calculated.
+
+### Hyperparameters
+All the parameters of the attributes are tested to get the best model parameters.
+
 ### Visualising Results
 Yet to be Completed!
